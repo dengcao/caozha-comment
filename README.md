@@ -11,9 +11,9 @@ caozha-comment，一个功能强大的评论系统，采用原生PHP编写，不
 
 ### 其他版本
 
-1、此为原生PHP编写的评论系统，如需要thinkphp版本的评论系统，请移步：[caozha-tp-comment](http://https://gitee.com/caozha/caozha-tp-comment)。
+1、此为原生PHP编写的评论系统，如需要thinkphp版本的评论系统，请移步：[caozha-tp-comment](http://gitee.com/caozha/caozha-tp-comment)。
 
-2、此源码不含后台，如需要后台，请参考：[caozha-admin](http://https://gitee.com/caozha/caozha-admin)，内有评论的完整后台示例。
+2、此源码不含后台，如需要后台，请参考：[caozha-admin](http://gitee.com/caozha/caozha-admin)，内有评论的完整后台示例。
 
 
 ### 安装使用
