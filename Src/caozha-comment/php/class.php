@@ -425,6 +425,7 @@ class caozha_comment
             "arrparentid" => $arrparentid,
             "cmtcontent" => $action_data["saytext"],
             "ischeck" => $ischeck,
+            "addtime"=>date("Y-m-d H:i:s",time()),
         );
 
         $insert_keys = "`".implode("`,`", array_keys($insert_data))."`";

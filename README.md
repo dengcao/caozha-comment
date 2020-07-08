@@ -46,6 +46,24 @@ caozha-comment，一个功能强大的评论系统，采用原生PHP编写，不
 上面的data-cmtid是评论标识符ID，data-catid是评论标识符分类ID，这两个参数是用来区分文章等评论的，一般情况下使用data-cmtid就足够了。
 
 
+### 更新方法
+
+**1.0.0升级到1.0.1的方法：**
+
+1、执行下面MYSQL命令：
+
+ALTER TABLE `cz_comment` CHANGE `addtime` `addtime` DATETIME NULL DEFAULT NULL COMMENT '评论时间';
+
+
+2、将1.0.1版/SRC/目录的源文件覆盖旧版本，注意修改数据库配置。
+
+
+### 更新说明
+
+**版本1.0.1，主要更新：**
+
+兼容了MySQL5.6及以下数据库，在MySQL5.5/5.6上测试，可以正常导入和使用。但为了获取更高的性能，依然建议您使用更高版本的MySQL数据库。
+
 
 ### 特别鸣谢
 
