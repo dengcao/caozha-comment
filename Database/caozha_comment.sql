@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主机： localhost
--- 生成日期： 2020-06-13 21:10:06
+-- 生成日期： 2020-07-08 14:06:23
 -- 服务器版本： 5.7.26
 -- PHP 版本： 7.3.4
 
@@ -34,7 +34,7 @@ CREATE TABLE `cz_comment` (
   `userid` int(11) DEFAULT '0' COMMENT '用户ID,0为游客',
   `userpic` int(4) DEFAULT NULL COMMENT '游客用户的头像',
   `cmtip` varchar(20) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT '评论IP',
-  `addtime` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '评论时间',
+  `addtime` datetime DEFAULT NULL COMMENT '评论时间',
   `cmtid` varchar(20) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT '评论ID，标识符，用于关联',
   `catid` varchar(20) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT '评论分类ID，标识符，用于关联',
   `parentid` int(11) DEFAULT '0' COMMENT '父ID',
