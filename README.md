@@ -6,7 +6,9 @@ caozha-comment，一个功能强大的评论系统，采用原生PHP编写，不
 
 ### 演示地址
 
-[http://5300.cn/git/demo/caozha-admin/public/index/comment/index](http://5300.cn/git/demo/caozha-admin/public/index/comment/index)
+[电脑版：http://gb.hyywx.com/app/156.html](http://gb.hyywx.com/app/156.html)
+
+[手机版：http://mgb.hyywx.com/app/156.html](http://mgb.hyywx.com/app/156.html)
 
 
 ### 其他版本
