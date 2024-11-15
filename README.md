@@ -64,6 +64,10 @@ ALTER TABLE `cz_comment` CHANGE `addtime` `addtime` DATETIME NULL DEFAULT NULL C
 
 兼容了MySQL5.6及以下数据库，在MySQL5.5/5.6上测试，可以正常导入和使用。但为了获取更高的性能，依然建议您使用更高版本的MySQL数据库。
 
+**版本1.0.2，主要更新：**
+
+更新一个css文件，修复当手机访问时不显示“提交”按钮的问题。
+
 
 ### 特别鸣谢
 
